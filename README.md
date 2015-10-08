@@ -13,9 +13,11 @@ composer.json
 
 View
 ---------
+#### Assets
 ```php
 xj\eraser\EraserAsset::register($this);
 ```
+#### Css
 ```css
 .eraser-container {
     position: relative;
@@ -39,12 +41,16 @@ xj\eraser\EraserAsset::register($this);
     z-index: 2;
 }
 ```
+
+#### Html
 ```html
 <span class="eraser-container">
     <img id="sourceImage" src="/images/eraser/source-image.jpg"/>
     <img id="coverImage" src="/images/eraser/cover-image.jpg"/>
 </span>
 ```
+
+#### Js
 ```js
 $('#coverImage').eraser({
     completeRatio: 0.4,
