@@ -14,5 +14,5 @@ composer.json
 View
 ---------
 ```php
-xj\tagit\EraserAsset::register($this);
+xj\eraser\EraserAsset::register($this);
 ```
