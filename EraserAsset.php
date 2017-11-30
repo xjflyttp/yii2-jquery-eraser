@@ -11,7 +11,6 @@ class EraserAsset extends AssetBundle
 {
 
     public $sourcePath = '@bower/jquery-eraser';
-    public $basePath = '@webroot/assets';
     public $js = ['jquery.eraser.js'];
     public $depends = [
         'yii\web\JqueryAsset',
